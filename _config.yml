@@ -1,0 +1,8 @@
+title: My Blog
+description: A simple and clean blog
+theme: minima
+baseurl: "" # 如果你不是用 `username.github.io`，需要配置仓库名，比如 "/myblog"
+url: "https://username.github.io" # 你的博客网址
+paginate: 5 # 每页显示的文章数量
+paginate_path: "/page:num/"
+markdown: kramdown
