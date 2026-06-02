@@ -1,0 +1,32 @@
+---
+layout: base
+---
+
+<article class="post">
+  <header class="post-header">
+    <div class="container">
+      <a class="back-link" href="{{ '/posts/' | relative_url }}">← 返回文章</a>
+      <p class="eyebrow">{{ page.categories | join: " / " }}</p>
+      <h1>{{ page.title }}</h1>
+      <div class="post-meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time>
+        {% if page.tags %}
+          <span>{{ page.tags | join: " · " }}</span>
+        {% endif %}
+      </div>
+    </div>
+  </header>
+
+  <div class="container post-layout">
+    <div class="prose">
+      {{ content }}
+    </div>
+    <aside class="sidebar">
+      <div class="ad-box">
+        <span>合作位</span>
+        <p>这里可以放工具推荐、课程入口、公众号二维码或广告合作说明。</p>
+        <a href="{{ '/sponsor/' | relative_url }}">查看合作方式</a>
+      </div>
+    </aside>
+  </div>
+</article>

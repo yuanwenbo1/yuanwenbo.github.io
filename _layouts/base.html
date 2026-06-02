@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'zh-CN' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="{{ '/' | relative_url }}">
+          <span class="brand-mark">YW</span>
+          <span>
+            <strong>{{ site.author.name }}</strong>
+            <small>{{ site.author.role }}</small>
+          </span>
+        </a>
+        <nav class="nav">
+          {% for item in site.nav %}
+            <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+          {% endfor %}
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <strong>{{ site.title }}</strong>
+          <p>把测试经验、AI 实践和项目复盘沉淀成长期可复用的知识。</p>
+        </div>
+        <div>
+          <span>联系合作</span>
+          <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
