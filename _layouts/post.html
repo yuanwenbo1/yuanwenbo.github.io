@@ -4,28 +4,50 @@ layout: base
 
 <article class="post">
   <header class="post-header">
-    <div class="container">
-      <a class="back-link" href="{{ '/posts/' | relative_url }}">← 返回文章</a>
-      <p class="eyebrow">{{ page.categories | join: " / " }}</p>
-      <h1>{{ page.title }}</h1>
-      <div class="post-meta">
-        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time>
+    <div class="container post-head-grid">
+      <div>
+        <a class="back-link" href="{{ '/posts/' | relative_url }}">返回文章列表</a>
+        <p class="eyebrow">{{ page.categories | join: " / " }}</p>
+        <h1>{{ page.title }}</h1>
+        <div class="post-meta">
+          <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time>
+          {% assign words = content | strip_html | size %}
+          <span>约 {{ words | divided_by: 450 | plus: 1 }} 分钟阅读</span>
+        </div>
         {% if page.tags %}
-          <span>{{ page.tags | join: " · " }}</span>
+          <div class="tag-list">
+            {% for tag in page.tags %}
+              <span class="tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
         {% endif %}
       </div>
+      <aside class="post-brief">
+        <span>文章主题</span>
+        <p>{{ page.description | default: "围绕测试开发、AI 辅助测试和质量效能的实践整理。" }}</p>
+      </aside>
     </div>
   </header>
 
   <div class="container post-layout">
     <div class="prose">
       {{ content }}
+      <div class="post-ending">
+        <h2>继续交流</h2>
+        <p>如果你也在做测试开发、AI 辅助测试或质量效能建设，可以通过邮箱联系我，一起交流实践经验。</p>
+        <a class="button secondary" href="mailto:{{ site.author.email }}">联系我</a>
+      </div>
     </div>
     <aside class="sidebar">
       <div class="ad-box">
         <span>合作位</span>
-        <p>这里可以放工具推荐、课程入口、公众号二维码或广告合作说明。</p>
+        <p>适合放测试工具、AI 工具、课程资料、公众号或内容合作说明。</p>
         <a href="{{ '/sponsor/' | relative_url }}">查看合作方式</a>
+      </div>
+      <div class="side-card">
+        <span>知识库</span>
+        <p>按主题整理文章、清单、模板和项目复盘。</p>
+        <a href="{{ '/knowledge/' | relative_url }}">进入知识库</a>
       </div>
     </aside>
   </div>

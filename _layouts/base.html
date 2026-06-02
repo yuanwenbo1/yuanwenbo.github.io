@@ -12,12 +12,12 @@
       <div class="container header-inner">
         <a class="brand" href="{{ '/' | relative_url }}">
           <span class="brand-mark">YW</span>
-          <span>
+          <span class="brand-text">
             <strong>{{ site.author.name }}</strong>
-            <small>{{ site.author.role }}</small>
+            <small>{{ site.author.role }} · AI 辅助测试</small>
           </span>
         </a>
-        <nav class="nav">
+        <nav class="nav" aria-label="主导航">
           {% for item in site.nav %}
             <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
           {% endfor %}
@@ -34,6 +34,10 @@
         <div>
           <strong>{{ site.title }}</strong>
           <p>把测试经验、AI 实践和项目复盘沉淀成长期可复用的知识。</p>
+        </div>
+        <div>
+          <span>内容方向</span>
+          <p>AI 测试 · 自动化测试 · 测试平台 · 质量效能</p>
         </div>
         <div>
           <span>联系合作</span>
