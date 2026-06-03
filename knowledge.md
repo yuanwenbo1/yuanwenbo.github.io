@@ -16,6 +16,19 @@ permalink: /knowledge/
 <section class="section">
   <div class="container knowledge-grid">
     <article class="knowledge-card highlight">
+      <span>Testing Basics</span>
+      <h2>软件测试方法论</h2>
+      <p>从测试目标、测试层次、测试类型、用例设计和风险驱动理解测试工作的底层逻辑。</p>
+      <ul>
+        <li><a href="{{ '/posts/2026/06/03/software-testing-methodology/' | relative_url }}">软件测试方法论：从发现缺陷到控制质量风险</a></li>
+        <li><a href="{{ '/posts/2026/06/03/software-testing-technology-system/' | relative_url }}">软件测试技术体系：测试工程师到底需要掌握哪些技术</a></li>
+        <li><a href="{{ '/posts/2026/06/03/test-process-tradeoff-and-adaptation/' | relative_url }}">测试流程设计：如何在效率和质量之间做取舍</a></li>
+        <li><a href="{{ '/posts/2026/06/03/multi-dimensional-test-design/' | relative_url }}">多维测试用例设计：从功能覆盖到风险覆盖</a></li>
+        <li><a href="{{ '/posts/2026/06/03/testcase-review-and-traceability/' | relative_url }}">用例评审与覆盖追溯</a></li>
+      </ul>
+    </article>
+
+    <article class="knowledge-card highlight">
       <span>AI Testing</span>
       <h2>AI 辅助测试</h2>
       <p>围绕 AI 如何参与需求、用例、脚本、执行、报告和知识沉淀。</p>
