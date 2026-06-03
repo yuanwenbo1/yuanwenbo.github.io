@@ -20,9 +20,11 @@ permalink: /knowledge/
       <h2>AI 辅助测试</h2>
       <p>围绕 AI 如何参与需求、用例、脚本、执行、报告和知识沉淀。</p>
       <ul>
+        <li><a href="{{ '/posts/2026/06/03/ai-testing-knowledge-engineering/' | relative_url }}">AI 测试不是提示词，而是测试知识工程</a></li>
         <li><a href="{{ '/posts/2026/06/02/ai-era-test-engineer-opportunity/' | relative_url }}">AI 能力大幅提升后，测试工程师的机会与挑战</a></li>
         <li><a href="{{ '/posts/2026/06/02/ai-testing-start/' | relative_url }}">为什么我要开始记录 AI 辅助测试</a></li>
         <li><a href="{{ '/posts/2026/06/02/ai-native-test-platform/' | relative_url }}">AI 早介入的测试平台建设思路</a></li>
+        <li><a href="{{ '/posts/2026/06/03/ai-testing-system-governance/' | relative_url }}">AI 测试能力如何治理</a></li>
       </ul>
     </article>
 
@@ -31,6 +33,8 @@ permalink: /knowledge/
       <h2>自动化测试</h2>
       <p>从传统脚本、框架设计到 AI 生成脚本和 Agent 执行语义化用例。</p>
       <ul>
+        <li><a href="{{ '/posts/2026/06/03/multi-dimensional-test-design/' | relative_url }}">多维测试用例设计：从功能覆盖到风险覆盖</a></li>
+        <li><a href="{{ '/posts/2026/06/03/testcase-review-and-traceability/' | relative_url }}">用例评审与覆盖追溯</a></li>
         <li><a href="{{ '/posts/2026/06/02/automation-testing-future/' | relative_url }}">自动化测试的发展方向：从脚本框架到 AI Agent</a></li>
         <li>Pytest 自动化框架</li>
         <li>JMeter 接口与性能测试</li>
@@ -44,6 +48,7 @@ permalink: /knowledge/
       <p>沉淀对外接口、状态流转、幂等、回调、错误码和可观测性的测试方法。</p>
       <ul>
         <li><a href="{{ '/posts/2026/06/02/openapi-test-checklist/' | relative_url }}">OpenAPI 接口测试应该重点覆盖什么</a></li>
+        <li><a href="{{ '/posts/2026/06/03/requirement-analysis-to-test-strategy/' | relative_url }}">从需求分析到测试策略</a></li>
         <li>鉴权与权限隔离</li>
         <li>状态流转与幂等性</li>
         <li>回调与异步通知</li>
@@ -68,6 +73,8 @@ permalink: /knowledge/
       <h2>质量效能</h2>
       <p>把测试经验、风险场景、缺陷复盘和检查清单沉淀成团队资产。</p>
       <ul>
+        <li><a href="{{ '/posts/2026/06/03/quality-feedback-loop/' | relative_url }}">从测试报告到缺陷复盘：建立质量反馈闭环</a></li>
+        <li><a href="{{ '/posts/2026/06/03/collaboration-knowledge-base-for-qa/' | relative_url }}">协作和知识库如何服务质量保障</a></li>
         <li><a href="{{ '/posts/2026/06/02/quality-asset/' | relative_url }}">测试资产不是文档仓库，而是可复用的质量能力</a></li>
         <li>用例评审 checklist</li>
         <li>上线质量检查表</li>
