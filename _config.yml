@@ -1,4 +1,4 @@
-title: 袁文博的测试开发笔记
+title: 测试开发与 AI 测试笔记
 description: 记录测试开发、AI 辅助测试、自动化测试、质量效能和个人成长。
 url: "https://yuanwenbo1.github.io"
 baseurl: "/yuanwenbo.github.io"
@@ -8,7 +8,7 @@ markdown: kramdown
 permalink: /posts/:year/:month/:day/:title/
 
 author:
-  name: 袁文博
+  name: 测试开发笔记
   role: 测试开发工程师
   email: 624799284@qq.com
 

@@ -22,7 +22,7 @@ title: 首页
     </div>
     <aside class="hero-card">
       <p class="eyebrow">Profile</p>
-      <h2>袁文博</h2>
+      <h2>测试开发笔记</h2>
       <p>测试开发工程师，关注 AI 早介入的测试平台建设、测试资产沉淀和复杂业务链路质量保障。</p>
       <div class="stat-grid">
         <div class="stat">
