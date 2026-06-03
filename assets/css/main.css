@@ -454,6 +454,16 @@ h3 {
   color: #f8fafc;
 }
 
+.prose pre code {
+  display: block;
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+  color: inherit;
+  line-height: 1.75;
+  white-space: pre;
+}
+
 .sidebar {
   position: relative;
 }
