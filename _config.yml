@@ -19,6 +19,8 @@ nav:
     url: /posts/
   - title: 知识库
     url: /knowledge/
+  - title: 搜索
+    url: /search/
   - title: 关于
     url: /about/
   - title: 合作

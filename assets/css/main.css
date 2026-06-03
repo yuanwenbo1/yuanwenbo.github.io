@@ -490,6 +490,77 @@ h3 {
   background: #fff;
 }
 
+.search-hero {
+  background:
+    linear-gradient(135deg, rgba(230, 243, 239, 0.95), rgba(255, 243, 214, 0.62)),
+    #fff;
+}
+
+.search-shell {
+  max-width: 860px;
+}
+
+.search-box {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 22px;
+}
+
+.search-box input {
+  width: 100%;
+  min-height: 54px;
+  padding: 0 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--text);
+  font: inherit;
+  font-size: 16px;
+  box-shadow: var(--shadow-soft);
+  outline: none;
+}
+
+.search-box input:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 4px rgba(15, 107, 91, 0.12);
+}
+
+.search-box span {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.search-results {
+  display: grid;
+  gap: 14px;
+}
+
+.search-result,
+.empty-state {
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: var(--shadow-soft);
+}
+
+.search-result time,
+.search-result span {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.search-result h2 {
+  margin: 6px 0 8px;
+  font-size: 22px;
+}
+
+.search-result p,
+.empty-state p {
+  margin: 0 0 10px;
+  color: var(--muted);
+}
+
 .footer-grid {
   display: grid;
   grid-template-columns: 1.3fr 1fr 1fr;
