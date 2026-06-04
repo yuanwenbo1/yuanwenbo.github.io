@@ -42,6 +42,20 @@ permalink: /knowledge/
       </ul>
     </article>
 
+    <article class="knowledge-card wide">
+      <span>Skill System</span>
+      <h2>测试流程 Skill 体系</h2>
+      <p>把需求分析、测试策略、用例设计、用例评审和资产沉淀设计成可复用的 AI 辅助测试流程。</p>
+      <ul class="link-columns">
+        <li><a href="{{ '/posts/2026/06/04/requirement-test-analysis-skill-design/' | relative_url }}">需求测试分析 Skill 设计文档</a></li>
+        <li><a href="{{ '/posts/2026/06/04/test-strategy-design-skill-design/' | relative_url }}">测试策略设计 Skill 设计文档</a></li>
+        <li><a href="{{ '/posts/2026/06/04/test-case-design-skill-design/' | relative_url }}">测试用例设计 Skill 设计文档</a></li>
+        <li><a href="{{ '/posts/2026/06/04/test-case-review-skill-design/' | relative_url }}">测试用例评审 Skill 设计文档</a></li>
+        <li><a href="{{ '/posts/2026/06/04/test-asset-consolidation-skill-design/' | relative_url }}">测试资产沉淀与知识库治理 Skill 设计文档</a></li>
+        <li><a href="{{ '/posts/2026/06/04/test-knowledge-base-design/' | relative_url }}">测试知识库从 0 搭建与治理设计文档</a></li>
+      </ul>
+    </article>
+
     <article class="knowledge-card">
       <span>Automation</span>
       <h2>自动化测试</h2>
