@@ -33,6 +33,7 @@ permalink: /knowledge/
       <h2>AI 辅助测试</h2>
       <p>围绕 AI 如何参与需求、用例、脚本、执行、报告和知识沉淀。</p>
       <ul>
+        <li><a href="{{ '/posts/2026/06/04/mcp-and-agent-skills/' | relative_url }}">MCP 协议与 Skill：AI Agent 如何连接工具和沉淀能力</a></li>
         <li><a href="{{ '/posts/2026/06/03/ai-testing-knowledge-engineering/' | relative_url }}">AI 测试不是提示词，而是测试知识工程</a></li>
         <li><a href="{{ '/posts/2026/06/02/ai-era-test-engineer-opportunity/' | relative_url }}">AI 能力大幅提升后，测试工程师的机会与挑战</a></li>
         <li><a href="{{ '/posts/2026/06/02/ai-testing-start/' | relative_url }}">为什么我要开始记录 AI 辅助测试</a></li>
